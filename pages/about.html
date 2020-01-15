@@ -3,12 +3,12 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Acme Web Design | Welcome</title>
+    <title>Acme Web Design | About</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta name="description" content="Affordable and pro web design">
     <meta name="keywords" content="web design, Affordable web design">
     <meta name="author" content="Panda Man">
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/style.css'>
     
 </head>
 <body>
@@ -19,12 +19,43 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="./pages/about.html">About</a></li>
-                    <li><a href="./pages/services.html">Services</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li class="current"><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <section id="newsletter">
+        <div class="container">
+          <h1>Subscribe to our newsletter</h1>  
+          <form>
+              <input type="email" placeholder="Enter e-mail...">
+              <button type="submit" class="button_1">Subscribe</button>
+          </form>
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container">
+           <article id="main-col">
+            <h1 class="page-title">About Us</h1>
+            <p>Curabitur et semper massa. Maecenas malesuada nunc a vulputate imperdiet. Quisque ultricies augue ut lacus finibus, sit amet volutpat sapien facilisis. Sed tempor ex sit amet ultrices tempor. Donec dictum malesuada felis, ac ullamcorper sem condimentum nec. Praesent pretium mauris sit amet ipsum faucibus varius. Pellentesque aliquam, dui non sagittis fringilla, lorem quam rhoncus risus, id efficitur arcu tellus in nunc. Nulla facilisi. Proin justo lectus, rhoncus sit amet elit vitae, ornare eleifend elit. Suspendisse id elit accumsan, mattis ante et, ultricies sapien. Nunc ac sem scelerisque ligula elementum condimentum id eu magna. Morbi posuere efficitur arcu sed dictum.
+            </p>
+            <p class="dark">Integer posuere efficitur libero et fringilla. Vestibulum egestas est ante, vel pretium augue faucibus a. Aenean ullamcorper magna quis justo tincidunt placerat. Etiam blandit, ante vitae convallis auctor, urna nulla commodo dui, in viverra purus urna ut ipsum. Vivamus in consequat sapien, a lacinia metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam viverra sit amet justo nec tincidunt. Phasellus vitae ex sem. Sed rutrum tempor neque. Fusce dapibus est ut vulputate sollicitudin. Maecenas sed sapien quis tellus cursus dapibus at nec tellus. Integer vehicula ligula a nulla dictum, ac tempus augue facilisis. Mauris non magna vel eros euismod auctor. Proin ut massa quis magna molestie auctor. Quisque sed dapibus nulla.</p>
+           </article> 
+           <aside id="sidebar">
+               <div class="dark">
+                <h3>What we do</h3>
+                <p>Curabitur vel dui at dolor lobortis tincidunt a sit amet orci. Morbi ipsum neque, dignissim quis nisi et, ullamcorper sagittis mi. Pellentesque sagittis, sem eu mattis lobortis, arcu lorem euismod libero, quis malesuada felis diam dapibus ipsum. Vivamus enim arcu, faucibus eu ex eu, consectetur aliquet metus. Vivamus porttitor scelerisque tellus. Donec scelerisque est vitae dapibus consectetur. Mauris consectetur volutpat ipsum at convallis. Sed quis venenatis mauris.</p>
+            </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <p>Acme Web Design, Copyright &copy;2020</p>
+    </footer>
 </body>
 </html>
